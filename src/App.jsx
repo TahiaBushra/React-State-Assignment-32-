@@ -1,8 +1,7 @@
-import Foods from "./components/Foods";
+import Counter from "./components/Counter";
 
 const App = () => {
-  const foodName = "Pastry";
-  return <Foods foodName={foodName} />;
+  return <Counter />;
 };
 
 export default App;
